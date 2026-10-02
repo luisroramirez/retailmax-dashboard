@@ -983,7 +983,7 @@ def main():
 
     # Verificar si se debe hacer predicción
 
-    if parametros['predecir'\]:
+    if parametros['predecir']:
 
         with st.spinner(
             '⏳ Generando predicción...'
@@ -1045,13 +1045,13 @@ def main():
                     ],
 
                 'Ventas_Predichas':
-                    f"${resultado['prediccion'\]:,.0f}",
+                    f"${resultado['prediccion']:,.0f}",
 
                 'Rango_Minimo':
-                    f"${resultado['intervalo_inferior'\]:,.0f}",
+                    f"${resultado['intervalo_inferior']:,.0f}",
 
                 'Rango_Maximo':
-                    f"${resultado['intervalo_superior'\]:,.0f}",
+                    f"${resultado['intervalo_superior']:,.0f}",
 
                 'Timestamp':
                     datetime.now().strftime(
