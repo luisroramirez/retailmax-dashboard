@@ -1769,11 +1769,7 @@ pd.read_csv(
     "historial_ejecuciones.csv"
 )
 
-from google.colab import files
 
-files.download(
-    'historial_ejecuciones.csv'
-)
 
 
 # Commented out IPython magic to ensure Python compatibility.
