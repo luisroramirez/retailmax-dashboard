@@ -546,7 +546,7 @@ def mostrar_resultados_prediccion(
 
             label="💰 Ventas Predichas",
 
-            value=f"${resultado['prediccion'\]:,.0f}",
+            value=f"${resultado['prediccion']:,.0f}",
 
             help=
             "Predicción puntual de ventas para la semana"
@@ -559,7 +559,7 @@ def mostrar_resultados_prediccion(
 
             label="📉 Rango Mínimo",
 
-            value=f"${resultado['intervalo_inferior'\]:,.0f}",
+            value=f"${resultado['intervalo_inferior']:,.0f}",
 
             help=
             f"Límite inferior del intervalo de confianza al {resultado['confianza']}%"
@@ -572,7 +572,7 @@ def mostrar_resultados_prediccion(
 
             label="📈 Rango Máximo",
 
-            value=f"${resultado['intervalo_superior'\]:,.0f}",
+            value=f"${resultado['intervalo_superior']:,.0f}",
 
             help=
             f"Límite superior del intervalo de confianza al {resultado['confianza']}%"
