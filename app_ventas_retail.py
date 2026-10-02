@@ -1,4 +1,4 @@
-%%writefile app_ventas_retail.py
+
 
 # Importaciones necesarias
 
