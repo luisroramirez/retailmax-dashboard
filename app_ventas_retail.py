@@ -133,7 +133,6 @@ df.head(), df.shape, f"Archivo generado en: {ruta_salida}"
 
 # Instala las librerías necesarias
 
-!pip install plotly pandas scikit-learn
 
 # Importa las librerías
 
