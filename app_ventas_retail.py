@@ -1775,7 +1775,6 @@ files.download(
     'historial_ejecuciones.csv'
 )
 
-!pip install streamlit pandas numpy plotly scikit-learn
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app_ventas_retail.py
